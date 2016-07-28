@@ -1,4 +1,4 @@
-from utils import clean_content, fix_unclosed_html, remove_useless_tags, parse_to_markdown
+from utils import clean_content, parse_to_markdown
 
 class Article:
     def __init__(self, title, content, link):

@@ -21,15 +21,6 @@ welcome_message = "*Hola, soy ElMundoBot*, tu bot de noticias\n" \
                   "Espero serte de gran ayuda! *:)*\n" \
                   "Mi código fuente está en [este repositorio](https://github.com/JCepedaVillamayor/agilecr-lightning-talks)"
 
-asda = ""\
-                  "Para poder usarme, debes llamarme en la línea de ordenes con: \n"\
-                  " \@elmundo_inlinebot nombre de la sección para que te busque las últimas noticias.\n"\
-                  "Las secciones que dispongo para enseñarte son: \n"\
-                  "españa"\
-                  "Espero serte de gran ayuda! :)\n"\
-                  "Mi código fuente está en [este repositorio](https://github.com/JCepedaVillamayor/agilecr-lightning-talks)"
-print(welcome_message)
-
 bot = telebot.TeleBot(API_TOKEN)
 #telebot.logger.setLevel(logging.DEBUG)
 
